@@ -1,6 +1,6 @@
 # Regex Tutorial for Matching an Email
 
-Introductory paragraph (replace this with your text)
+Introductory paragraph 
 
 ## Summary
 
