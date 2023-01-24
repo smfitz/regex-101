@@ -1,6 +1,5 @@
-<<<<<<< HEAD
 # regex-101
-=======
+
 # Regex Tutorial
 
 ### The Challenge for this week was to create a tutorial that explains how a specific regular expression, or regex, functions by breaking down each part of the expression and describing what it does.
@@ -22,4 +21,4 @@ WHEN I read through each section of the tutorial
 THEN I find a detailed explanation of what a specific component of the regex does
 WHEN I reach the end of the tutorial
 THEN I find a section about the author and a link to the author’s GitHub profile
->>>>>>> 8c449ea (first initial commit)
+
