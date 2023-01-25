@@ -10,9 +10,9 @@ As stated in <a href="https://coding-boot-camp.github.io/full-stack/computer-sci
  
 This works for checking if a string is a valid IP address in length only. In learning about IP addresses I had to what they are actually made of and this posed for more of a challenge. Essentialy they are just a series of bits that are represented with hexadecimal numericl values. Because of this they can vary in values. They have to be at least 3 digits but most people are familiar with the longer series of 12-15 numbers that are seperated by "."'s. Because IPv4 addresses consist of 32 bit decimal numbers represented by 4 bytes. This representation means the individual byte cannot exceed the high value of 1, represented in hexadecimal by 255. There are also 2 different kinds of bits that identify different thinks but knowing now this stipulation this is the final regex that uses [capturing](#grouping-and-capturing) to stores and checks the values of the 4 different bytes of the IP address and pass them as one string of numbers: 
 
-\b(25[0-5]|2[0-4][0-9]|[01]?[0-9][0-9]?)\.
-  (25[0-5]|2[0-4][0-9]|[01]?[0-9][0-9]?)\.
-  (25[0-5]|2[0-4][0-9]|[01]?[0-9][0-9]?)\.
+\b(25[0-5]|2[0-4][0-9]|[01]?[0-9][0-9]?)\. \
+  (25[0-5]|2[0-4][0-9]|[01]?[0-9][0-9]?)\. \
+  (25[0-5]|2[0-4][0-9]|[01]?[0-9][0-9]?)\. \
   (25[0-5]|2[0-4][0-9]|[01]?[0-9][0-9]?)\b
 
 ## Table of Contents
