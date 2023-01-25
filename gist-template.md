@@ -55,27 +55,31 @@ Flags are to be placed after the regex and are used to add additional functional
 
 ### Grouping and Capturing
 
-
+In regex capturing and grouping is a way to treat multiple classes as a single unit. By placing characters in parenthesis, you are telling the funtion to create a group of specfic items you want checked. This is similar to quantifiers but adds the functionality of being able to store said values that pass the conditions of the regex.
 
 ### Bracket Expressions
 
-
+Bracket Expression is used to indicate a specfic set of numbers/characters that will me matched to a specfic value. This is usually an input that is used alongside programing language functionality such as ".match" in JavaScript. It uses refular brackets [] for specfic numbers/characters, and curly brackets {} for finding an exact amount of things to match. You can also use regular parentheses () to represent reemembered matches. This was useful for me in my task of creating a regex that could verify the validity of a given IP address. When a match is remembered you can call it back using the $ sign. 
 
 ### Greedy and Lazy Match
 
+![image](https://user-images.githubusercontent.com/110552504/214472052-432f76b0-143d-4151-bcac-3b0ab0446e0d.png) /
 
+This concept is pretty staight forward in that you use a greedy expression to validate the entire length of a passed value, and you would use a lazy expression to search for a specfic value only. 
 
 ### Boundaries
 
+![image](https://user-images.githubusercontent.com/110552504/214472103-a3764318-fd8f-44e5-bc49-423c9e138d54.png) /
 
+Boundaries are useed to set the boundary of a given search. Similar to Anchors in that they are assigned at the beginning of a passed parameter but here is some additonal informarion on the topic: https://www.javascripttutorial.net/regular-expression-word-boundaries/
 
 ### Back-references
 
-
+Back refrences are straight forward in that they are used to "refrence back" to an earlier part of the expression. This is useful for checking to matches to a specfic grouping. 
 
 ### Look-ahead and Look-behind
 
-
+Look ahead and look behinds defines how matches are handled when using regular expressions. Look ahead and look behinds, also known as look around assertions, are similar to a start and end of the line of anchors. However, look around can match characters, and then they return a result of either a match or no match.
 
 ## Author
 #### - Sean Fitzpatrick
